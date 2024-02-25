@@ -9,7 +9,7 @@
 <body>
 
     <h1>PHP Hello World running on the web server!</h1>
-    <p>This is a paragraph.</p>
+    <p>This is a paragraph!</p>
     <?php
         echo "Hello World LaQuisha - PHP";
     ?>
