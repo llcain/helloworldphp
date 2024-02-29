@@ -14,7 +14,7 @@
     <p>Resize the browser window to see the effect. When the screen is less than 600px wide, make the two columns stack on top of each other.</p>
 
     <div class="container">
-        <form>
+        <form class="contact-form" method="post" action="contactform.php">
             <div class="row">
                 <div class="col-25">
                     <label for="fname">First Name</label>
@@ -48,11 +48,11 @@
                     <label for="subject">Subject</label>
                 </div>
                 <div class="col-75">
-                    <textarea name="subject" id="subject" style="height: 200px;" placeholder="Write something..."></textarea>
+                    <textarea name="message" id="subject" style="height: 200px;" placeholder="Message"></textarea>
                 </div>
             </div>
             <div class="row">
-                <input type="submit" value="Submit">
+                <input type="submit" name="submit" value="Submit">
             </div>
         </form>
     </div>
